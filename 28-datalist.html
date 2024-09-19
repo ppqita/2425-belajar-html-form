@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Datalist</title>
+    </head>
+    <body>
+        <form action="">
+            <label for="minuman">Minuman Favorit: </label>
+            <input
+                type="text"
+                name="minuman"
+                id="minuman"
+                list="list-minuman" />
+            <br />
+            <button type="submit">Simpan</button>
+
+            <datalist id="list-minuman">
+                <option value="ultramilk">Ultramilk</option>
+                <option value="teh-pucuk">Teh Pucuk</option>
+                <option value="milku">Milku</option>
+                <option value="mizone">Mizone</option>
+                <option value="pocari">Pocari</option>
+            </datalist>
+        </form>
+    </body>
+</html>
